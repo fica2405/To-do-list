@@ -1,0 +1,206 @@
+body {
+	background-color:rgba(233,233,233,1);
+	font-family: Sans-Serif;
+}
+
+.login {
+	position: absolute;    
+    width: 370px;
+    height: 430px;
+    left: 50%;
+    top: 48%;
+    margin-left: -220px;
+    margin-top: -220px;
+	background-color: #ffffff;
+	border-radius: 3px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+	padding: 50px 0 10px 50px;
+	visibility: visible;
+}
+
+.registerForm {
+	position: absolute;    
+    width: 370px;
+    height: 430px;
+    left: 52.3%;
+    top: 45%;
+    margin-left: -220px;
+    margin-top: -220px;
+	background-color: #ffffff;
+	border-radius: 3px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+	padding: 50px 0 10px 50px;
+	visibility: hidden;
+	
+}
+
+.forgotForm {
+	position: absolute;    
+    width: 370px;
+    height: 430px;
+    left: 52.3%;
+    top: 45%;
+    margin-left: -220px;
+    margin-top: -220px;
+	background-color: #ffffff;
+	border-radius: 3px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+	padding: 50px 0 10px 50px;
+	visibility: hidden;
+}
+
+
+.registracija {
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 6%;
+}
+
+.prijava {
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 31%;
+}
+
+#register:hover {
+	color: rgba(0,112,234,1);
+	cursor: pointer;
+}
+
+#forgot:hover {
+	color: rgba(0,112,234,1);
+	cursor: pointer;
+	
+}
+
+
+input[type=text] {
+	margin:5px 0 20px 0;
+	width: 85%;
+	height:60px;
+	background-color: Transparent;
+	border: none;
+    outline: none;
+	font-size:24px;
+	color: #212121;
+	
+}
+
+
+input[type="password"] {
+	margin:5px 0 20px 0;
+	width: 85%;
+	height:60px;
+	background-color: Transparent;
+	border: none;
+    outline: none;
+	font-size:24px;
+	color: #212121;
+	
+}
+
+
+
+
+#usern2 {
+	margin:50px 0 20px 0;
+	width: 85%;
+	height:60px;
+	background-color: transparent;
+	border: none;
+    outline: none;
+	font-size:24px;
+	color: #212121;
+	
+}
+
+
+
+h1 {
+	margin-bottom: 40px;
+	margin-left: -50px;
+	color: rgba(0,112,234,1);
+	border-left: 5px solid  rgba(0,112,234,1);
+	padding-left: 42px;
+}
+
+label {
+	color: #757575;
+	
+}
+
+
+
+.titleForgot {
+	margin-bottom: 80px;
+	
+}
+
+#usern2 {
+	margin-top:15px;
+	
+}
+
+
+
+
+
+.baruser {
+	width: 75%;
+	height: 1px;
+	background-color: #757575;
+	position:absolute;
+	top:46%;
+}
+
+.barpass {
+	width: 75%;
+	height: 1px;
+	background-color: #757575;
+	position:absolute;
+	top:68%;
+	
+}
+
+.baruserForgot {
+	width: 75%;
+	height: 1px;
+	background-color: #757575;
+	position:absolute;
+	top:63%;
+	
+}
+
+input[type=submit] {
+	outline: none;
+	font-size: 24px;
+	background: 0;
+	border: 2px solid #e3e3e3;
+	cursor: pointer;
+	padding: 20px 0;
+	line-height: 1;
+	width: 50%;
+	margin-left: 17%;
+	color: #757575;
+	
+	
+}
+
+input[type=submit]:hover {
+	border: 2px solid  rgba(0,112,234,1);
+	color:  rgba(0,112,234,1);
+	
+}
+
+input[type=submit]:active {
+	border: 2px solid  rgba(0,112,234,1);
+	background-color:  rgba(0,112,234,1);
+	color: #ffffff;
+}
+
+
+
+
+
+
+
